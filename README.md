@@ -1,19 +1,29 @@
 # MakeCert
-Make self-signed openssl certificates with ease!
+💻 Make self-signed openssl certificates with ease on Windows OS!
 
 This project is based on a gist by  [**Vikas Kapadiya @vikas5914**](https://gist.github.com/vikas5914/f4384d12866fd572bfc5bcf389e756e8#file-makecert-bat)
 
 Using this file (makecert.bat) you can create a custom self-signed ssl certificates with ease.
 
-## Features:
+## ⚡ Features:
 1. Provide your own meta-data fields.
 2. If you dont want to provide your own info, you can use the default values just by pressing enter.
 3. Info preview before actual ssl certs generation.
 4. If you dont approve the previewed info to be used, you can enter new info again.
 5. Confirmation to generate your ssl certs.
 
+## 🤔 How to use:
+Download the [makecert.bat](https://raw.githubusercontent.com/bantya/MakeCert/master/makecert.bat) file to your desired folder and [add it to the system  path](https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/).
+
+Sign out if required.
+
+Use it from anywhere!
+
+## 📷 Screenshots:
 ![image](https://user-images.githubusercontent.com/16685565/35646358-f918b94a-06f4-11e8-8895-b4644edbf9b9.png)
 ![image](https://user-images.githubusercontent.com/16685565/35646371-08a947bc-06f5-11e8-85a9-e54b3c53f55c.png)
 
 ### NOTE: The info to be provided must not contain any blank-space ( ), use hyphen (-) or underscore (_) instead!
 ### NOTE: This project assumes that the [openssl](https://github.com/openssl/openssl) is available on your system.
+
+👍
