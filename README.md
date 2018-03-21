@@ -19,7 +19,7 @@ Using this file (makecert.bat) you can create a custom self-signed ssl certifica
 1. Added support to set the Country, State, City, Organization, Organization Unit, Email in a config file.
 2. Added support to use the config file for providing the above mentioned fields.
 3. Command help added.
-4. Functionality for generating `.key` and `.cert` files without `.cnf` file added.
+4. Functionality for generating `.key` and `.crt` files without `.cnf` file added.
 
 ## 🤔 How to use:
 Download the [makecert.bat](https://raw.githubusercontent.com/bantya/MakeCert/master/makecert.bat) file to your desired folder and [add it to the system  path](https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/).
